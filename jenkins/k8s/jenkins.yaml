@@ -26,7 +26,7 @@ spec:
     spec:
       containers:
       - name: master
-        image: kaldockerid/jenkins:v5
+        image: kaldockerid/jenkins:v6
         ports:
         - containerPort: 8080
         - containerPort: 50000
